@@ -1,0 +1,15 @@
+current directory: /Users/renesilva/Documents/development/refactored-mezquite/aprendiz_de_cristo/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.9.3/ext/bootsnap
+/Users/renesilva/.rvm/rubies/ruby-3.0.3/bin/ruby -I /Users/renesilva/.rvm/rubies/ruby-3.0.3/lib/ruby/site_ruby/3.0.0 -r ./siteconf20211226-1025-juyh3r.rb extconf.rb
+creating Makefile
+
+current directory: /Users/renesilva/Documents/development/refactored-mezquite/aprendiz_de_cristo/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.9.3/ext/bootsnap
+make DESTDIR\= clean
+
+current directory: /Users/renesilva/Documents/development/refactored-mezquite/aprendiz_de_cristo/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.9.3/ext/bootsnap
+make DESTDIR\=
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/renesilva/Documents/development/refactored-mezquite/aprendiz_de_cristo/vendor/bundle/ruby/3.0.0/gems/bootsnap-1.9.3/ext/bootsnap
+make DESTDIR\= install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20211226-1025-nt05n7/bootsnap

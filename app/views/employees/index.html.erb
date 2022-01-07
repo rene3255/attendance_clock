@@ -1,0 +1,38 @@
+<%= render "shared/menu" %>
+
+<div class='container'>
+  <h1> Human Resources </h1>
+  <table class="table table-bordered table-dark">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Position</th>
+        <th scope="col">Private number</th>
+        <th scope="col">Employee number</th>
+        <th scope="col">Email</th>
+        <th scope="col">Branch</th>
+        <th scope="col">Active</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <% @employees.each do |item| %>
+        <tr>
+          <th scope="row"><%= item.id %></th>
+            <td><%= item.name %></td>
+            <td><%= item.position %></td>
+            <td><%= item.private_number %></td>
+            <td><%= item.employee_number %></td>
+            <td><%= item.email %></td>
+            <td><%= item.branch.name %></td>
+            <% if item.active %>
+               <td>Yes</td>
+            <% elsif %>
+              <td>No</td>
+            <% end %> 
+        </tr>
+      <% end %>  
+   </tbody>
+  </table>
+</div>

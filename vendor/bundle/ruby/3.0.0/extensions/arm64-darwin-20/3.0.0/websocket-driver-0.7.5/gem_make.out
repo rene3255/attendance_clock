@@ -1,0 +1,15 @@
+current directory: /Users/renesilva/Documents/development/refactored-mezquite/aprendiz_de_cristo/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/Users/renesilva/.rvm/rubies/ruby-3.0.3/bin/ruby -I /Users/renesilva/.rvm/rubies/ruby-3.0.3/lib/ruby/site_ruby/3.0.0 -r ./siteconf20211226-1025-46nvjx.rb extconf.rb
+creating Makefile
+
+current directory: /Users/renesilva/Documents/development/refactored-mezquite/aprendiz_de_cristo/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= clean
+
+current directory: /Users/renesilva/Documents/development/refactored-mezquite/aprendiz_de_cristo/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\=
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/renesilva/Documents/development/refactored-mezquite/aprendiz_de_cristo/vendor/bundle/ruby/3.0.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make DESTDIR\= install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 websocket_mask.bundle ./.gem.20211226-1025-br265x

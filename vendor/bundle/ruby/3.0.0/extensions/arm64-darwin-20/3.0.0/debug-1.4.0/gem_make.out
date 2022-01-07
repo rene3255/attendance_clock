@@ -1,0 +1,16 @@
+current directory: /Users/renesilva/Documents/development/refactored-mezquite/aprendiz_de_cristo/vendor/bundle/ruby/3.0.0/gems/debug-1.4.0/ext/debug
+/Users/renesilva/.rvm/rubies/ruby-3.0.3/bin/ruby -I /Users/renesilva/.rvm/rubies/ruby-3.0.3/lib/ruby/site_ruby/3.0.0 -r ./siteconf20211226-1025-ole1ir.rb extconf.rb
+creating Makefile
+
+current directory: /Users/renesilva/Documents/development/refactored-mezquite/aprendiz_de_cristo/vendor/bundle/ruby/3.0.0/gems/debug-1.4.0/ext/debug
+make DESTDIR\= clean
+
+current directory: /Users/renesilva/Documents/development/refactored-mezquite/aprendiz_de_cristo/vendor/bundle/ruby/3.0.0/gems/debug-1.4.0/ext/debug
+make DESTDIR\=
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.bundle
+
+current directory: /Users/renesilva/Documents/development/refactored-mezquite/aprendiz_de_cristo/vendor/bundle/ruby/3.0.0/gems/debug-1.4.0/ext/debug
+make DESTDIR\= install
+/opt/homebrew/opt/coreutils/bin/ginstall -c -m 0755 debug.bundle ./.gem.20211226-1025-pydfrk/debug

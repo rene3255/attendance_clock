@@ -1,0 +1,21 @@
+<div class='container'>
+  <h1> Company Branches </h1>
+  <table class="table table-bordered table-dark">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Name</th>
+        <th scope="col">Address</th>
+      </tr>
+    </thead>
+    <tbody>
+      <% @branches.each do |item| %>
+        <tr>
+          <th scope="row"><%= item.id %></th>
+            <td><%= item.name %></td>
+            <td><%= item.address %></td>
+        </tr>
+      <% end %>  
+   </tbody>
+  </table>
+</div>
